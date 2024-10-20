@@ -1,0 +1,84 @@
+.loginform {
+    display: grid;
+    justify-content: center;
+    margin-left: 0px;
+    margin-top: 10px;
+    margin-right: 0px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+}
+
+h3{
+    text-align: center;
+}
+.all{
+    display: grid;
+    width: 100%;
+    margin-top: 40px;
+    justify-content: center;
+
+}
+.form{
+    display:grid;
+    background-color: #E4F1FF;
+    border:none;
+    border-radius:16px ;
+    width:100%;
+    justify-content: center;
+}
+input {
+    width: 300px;
+    height: 40px;
+    border-radius: 16px;
+    border: 3px solid darkblue;
+    background-color: white;
+    padding-left: 12px;
+    opacity: 0.5;
+    margin-top: 20px;
+}
+
+textarea{
+    width: 300px;
+    height: 140px;
+    border-radius: 16px;
+    border: 3px solid darkblue;
+    background-color: white;
+    padding-left: 12px;
+    opacity: 0.5;
+    margin-top: 20px;
+}
+select{
+    width: 200px;
+    height: 40px;
+    border-radius: 16px;
+    border: 3px solid darkblue;
+    background-color: white;
+    padding-left: 12px;
+    opacity: 0.5;
+    margin-top: 20px;
+}
+
+.button {
+    background-color: darkblue;
+    color: white;
+    border-radius: 20px;
+    border: none;
+    width: 100px;
+    height: 30px;
+    margin-left: 50px;
+    margin-top: 10px;
+    box-shadow: darkblue;
+    
+}
+
+button:hover{
+    background: #6d44b8;
+}
+.signup{
+    display: flex;
+}
+h2{
+    font-size: small;
+    margin-left: 50px;
+    margin-top: 20px;
+}

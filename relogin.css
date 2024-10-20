@@ -1,0 +1,49 @@
+.contactcontent {
+    display: grid;
+    justify-content: center;
+    margin-left: 0px;
+    margin-top: 10px;
+    margin-right: 250px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+}
+
+.nameemailpassword{
+    display: grid;
+    width: 100%;
+    margin-top: 40px;
+    justify-content: center;
+
+}
+.general div{
+    background-color: #E4F1FF;
+    border:none;
+    border-radius:16px ;
+    width:200%;
+    justify-content: center;
+    height: 200%;
+}
+
+input {
+    width: 200px;
+    height: 40px;
+    border-radius: 16px;
+    border: 3px solid darkblue;
+    background-color: white;
+    padding-left: 12px;
+    opacity: 0.5;
+    margin-top: 20px;
+}
+
+.button {
+    background-color: darkblue;
+    color: white;
+    border-radius: 20px;
+    border: none;
+    width: 100px;
+    height: 30px;
+    margin-left:100px;
+    margin-top: 10px;
+    box-shadow: darkblue;
+    
+}
