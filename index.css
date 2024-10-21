@@ -51,6 +51,10 @@ nav ul {
     color: darkblue;
 }
 
+.navitems img {
+    display: none;
+}
+
 nav input[type=text] {
     float: right;
     padding: 6px;
@@ -246,4 +250,17 @@ nav input[type=text] {
     100% {
         background-positon-x: 0px;
     }
+}
+@media only screen and (max-width: 480px) {
+    nav li a {
+        display: none;
+    }
+    .navitems img {
+        display: block;
+        height: 30px;
+        margin-right: 100%;
+        margin-top: 0px;
+        justify-content: flex-end;
+    }
+
 }
